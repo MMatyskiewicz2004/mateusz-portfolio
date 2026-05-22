@@ -1,0 +1,21 @@
+.logo-container {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.main-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.eye {
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    width: 200px;
+  }
+}
