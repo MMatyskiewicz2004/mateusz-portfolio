@@ -90,6 +90,10 @@ function DaybreakCaseStudyPage() {
         </section>
       </main>
 
+      <div className="daybreak-construction-overlay" role="status" aria-live="polite">
+        <p className="daybreak-construction-text">UNDER CONSTRUCTION</p>
+      </div>
+
       <SiteFooter active="projects" />
     </div>
   )

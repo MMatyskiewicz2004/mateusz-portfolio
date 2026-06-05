@@ -7,6 +7,9 @@ import ProjectsPage from './pages/ProjectsPage.jsx'
 import SolaceCaseStudyPage from './pages/SolaceCaseStudyPage.jsx'
 import AboutPage from './pages/AboutPage.jsx'
 import DaybreakCaseStudyPage from './pages/DaybreakCaseStudyPage.jsx'
+import CapyCareCaseStudyPage from './pages/CapyCareCaseStudyPage.jsx'
+import ScreamPosterCaseStudyPage from './pages/ScreamPosterCaseStudyPage.jsx'
+import CanDesignCaseStudyPage from './pages/CanDesignCaseStudyPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +20,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/projects/solace" element={<SolaceCaseStudyPage />} />
         <Route path="/projects/daybreak" element={<DaybreakCaseStudyPage />} />
+        <Route path="/projects/capycare" element={<CapyCareCaseStudyPage />} />
+        <Route path="/projects/scream-poster" element={<ScreamPosterCaseStudyPage />} />
+        <Route path="/projects/can-design" element={<CanDesignCaseStudyPage />} />
       </Routes>
     </HashRouter>
   </StrictMode>,
