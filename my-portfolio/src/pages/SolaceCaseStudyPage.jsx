@@ -113,10 +113,13 @@ function SolaceCaseStudyPage() {
               </p>
             </div>
 
-            <div className="solace-problem-face" aria-hidden="true">
-              <span className="solace-eye solace-eye-left" />
-              <span className="solace-eye solace-eye-right" />
-              <span className="solace-mouth" />
+            <div className="solace-problem-face">
+              <img
+                src="/solace_assets/problem-face.svg"
+                alt=""
+                className="solace-problem-face-image"
+                aria-hidden="true"
+              />
             </div>
           </article>
         </section>

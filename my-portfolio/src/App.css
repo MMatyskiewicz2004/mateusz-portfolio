@@ -878,39 +878,15 @@
 }
 
 .solace-problem-face {
-  position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding-right: 1.5rem;
+  justify-content: center;
   min-height: 260px;
 }
 
-.solace-eye {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #f2f2f2;
-  top: 34%;
-}
-
-.solace-eye-left {
-  left: 25%;
-}
-
-.solace-eye-right {
-  left: 45%;
-}
-
-.solace-mouth {
-  position: absolute;
-  width: 90px;
-  height: 60px;
-  border-radius: 50%;
-  background: #f2f2f2;
-  bottom: 35%;
-  left: 34%;
+.solace-problem-face-image {
+  width: min(100%, 221px);
+  height: auto;
 }
 
 /* 03 • The Research section */
@@ -3871,17 +3847,11 @@
 
   .solace-problem-face {
     min-height: 120px;
-    padding-right: 0;
+    justify-content: center;
   }
 
-  .solace-eye {
-    width: 14px;
-    height: 14px;
-  }
-
-  .solace-mouth {
-    width: 70px;
-    height: 46px;
+  .solace-problem-face-image {
+    width: min(100%, 180px);
   }
 
   .capy-details-grid {
